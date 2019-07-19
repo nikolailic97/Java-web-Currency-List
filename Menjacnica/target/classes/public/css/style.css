@@ -1,0 +1,213 @@
+body {
+    background: linear-gradient(
+    to right,
+    #e6e6e6 0%,
+    #cccccc 50%,
+    #e6e6e6 100%
+        );
+}
+
+
+/* podesavanja display */
+section {
+    width: 100%;
+}
+
+#leftColor {
+    float: left;
+    width: 10%;
+    color: #e6e6e6;
+    height: 100vh;
+}
+
+#leftSide {
+    float: left;
+    width: 60% 
+}
+
+#rightSide {
+    float: right;
+    width: 20%;
+    
+}
+
+#rightColor {
+    float: right;
+    width: 10%;
+    color: #e6e6e6;
+    height: 100vh;
+}
+
+/* Naslov */
+
+#headerNaslov {
+    margin-bottom: 0;
+    background-color: #c3c3c3 ;
+}
+
+#naslov {
+    margin-bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 52px;
+    font-weight: bolder;
+    padding: 5px 0 30px 10px;
+    text-align: center;
+}
+
+
+/* Zastave */
+
+.kursZastava{
+    margin-left: 5px;
+}
+
+
+
+/* Trenutni Datum */
+#divDatum {
+   padding-left: 450px;
+   margin-top: 10px;
+}
+
+#tDatum {
+    border-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#divVreme {
+    margin-top: 10px; 
+    margin-bottom: 5px;
+}
+
+#tVreme {
+    border-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: solid;
+    border-width: 1px;
+    margin-right: 50px;
+}
+#datum {background-color: #f2faff;}
+#vreme {
+    background-color: #f2faff;
+}
+
+/*  *** KRAJ Trenutni datum *** */
+
+
+
+/* Tabela Kursna Lista */
+
+.tabelaZastava {
+    padding-right: 5px;
+}
+
+#divLista {
+    padding: 10px 0 0 80px;
+    
+}
+
+.tM {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2faff;
+}
+
+.tM td {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: black;
+    color: black;
+}
+
+.tM th {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: black;
+    color: black;
+}
+
+.tM td {
+    font-size: 13px;
+    text-align: center;
+    vertical-align: top;
+    border-color: black;
+    color: black;
+}
+
+.tM-oznake {
+    font-size: 16px;
+    text-align: center;
+    vertical-align: top;
+    border-color: black;
+    color: black;
+
+}
+
+.tM-valute {
+    font-size: 13px;
+    text-align: center;
+    vertical-align: top;
+    border-color: black;
+    color: black;
+}
+/*  *** KRAJ Tabela Kursna Lista *** */
+
+/* div Srednji Kurs */
+#divSrednjiKurs {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    margin-right: 5px;
+    background-color: #f2faff;
+}
+
+#kursNaslov {
+    text-align: center;
+}
+/* *** Konvertor valuta *** */
+#divKonvertor {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 50px;
+    margin-right: 5px;
+    background-color: #f2faff;
+    padding-left: 5px;
+}
+
+.konvText {
+    font-size: 16px;
+}
+
+/* *** KRAJ Konvertor valuta *** */
+
+/* *** Preuzmi u txt *** */
+#preuzmiTxt {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    margin-right: 5px;
+    text-align: center;
+    background-color: #f2faff;
+    padding-bottom: 5px;
+}
+
+#btnPreuzmi {
+    
+}
+/* *** KRAJ Preuzmi u txt *** */
